@@ -27,5 +27,13 @@
       // ... Vercel
       "vercel-deploy": {
         enabled: true,
+        config: {
+          deployHook:
+            "https://api.vercel.com/v1/integrations/deploy/prj_XmY0CxladBMEltZJqOIxX7NSkxW6/5qQJL5UU0U",
+          apiToken: "TVIDi5YcBHjmfU7TDsIFT1kl",
+          appFilter: "strapi-neon",
+          teamFilter: "prj_XmY0CxladBMEltZJqOIxX7NSkxW6",
+          roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
+        },
       },
     });
