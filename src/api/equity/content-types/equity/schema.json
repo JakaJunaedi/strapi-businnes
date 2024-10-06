@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equities",
+  "info": {
+    "singularName": "equity",
+    "pluralName": "equities",
+    "displayName": "Equity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "biginteger"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

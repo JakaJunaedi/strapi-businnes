@@ -18,18 +18,15 @@
     "desc": {
       "type": "text"
     },
-    "img": {
+    "image": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
-    "img2": {
+    "thumbnail": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -73,6 +70,20 @@
       "relation": "oneToMany",
       "target": "api::stock.stock",
       "mappedBy": "product"
+    },
+    "size": {
+      "type": "json"
+    },
+    "original_price": {
+      "type": "decimal",
+      "required": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "subtitle": {
+      "type": "text"
     }
   }
 }

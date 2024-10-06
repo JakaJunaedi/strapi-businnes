@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modals",
+  "info": {
+    "singularName": "modal",
+    "pluralName": "modals",
+    "displayName": "modal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nominal": {
+      "type": "string"
+    }
+  }
+}

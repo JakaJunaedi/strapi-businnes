@@ -12,8 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "quantity": {
-      "type": "biginteger"
+    "qty": {
+      "type": "integer"
     },
     "product": {
       "type": "relation",

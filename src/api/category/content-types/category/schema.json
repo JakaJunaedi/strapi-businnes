@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "desc": {
       "type": "text"
@@ -46,6 +46,10 @@
       "relation": "oneToMany",
       "target": "api::post.post",
       "mappedBy": "category"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
